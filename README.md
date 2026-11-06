@@ -16,11 +16,12 @@ It allows users to add expenses, view recorded expenses, delete expenses, calcul
 - Display help instructions.
 - Validate user input and reject invalid amounts or IDs.
 
-## 📷 Screenshots
+## 📷 Screenshots and demo
 
 ![alt text](<asset/images/Screenshot From 2026-11-05 16-46-22.png>)
 ![alt text](<asset/images/Screenshot From 2026-11-05 16-46-32.png>)
 ![alt text](<asset/images/Screenshot From 2026-11-05 16-47-10.png>)
+![Project Demo Video](asset/videos/Screencast From 2026-11-06 11-19-16.webm)
 
 ## Requirements
 

@@ -34,7 +34,7 @@ It allows users to add expenses, view recorded expenses, delete expenses, calcul
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/Mecaly-kjr/bash-capstone-expense-tracker.git
 ```
 
 Enter the project directory:
@@ -57,7 +57,20 @@ chmod +x depenses.sh
 ./depenses.sh help
 ```
 
-### 2. Add Expenses
+### 2. Category Rules
+
+Category names can contain only letters, numbers, underscores (_) and hyphens (-).
+
+Examples of valid categories:
+
+- Food
+- Transport
+- School_Fees
+- Personal-Care
+
+Spaces are not allowed in category names.
+
+### 3. Add Expenses
 
 ```bash
 ./depenses.sh add 1500 Food Lunch
@@ -75,7 +88,7 @@ Category: Food
 Date: 2026-11-05
 ```
 
-### 3. List Expenses
+### 4. List Expenses
 
 ```bash
 ./depenses.sh list
@@ -91,7 +104,7 @@ ID    AMOUNT       CATEGORY        DATE         NOTE
 3     1000         Food            2026-11-05   Dinner
 ```
 
-### 4. Calculate Total Expenses
+### 5. Calculate Total Expenses
 
 ```bash
 ./depenses.sh total
@@ -104,7 +117,7 @@ Number of expenses: 3
 Total expenses: 3000.00 FCFA
 ```
 
-### 5. Generate Monthly Report
+### 6. Generate Monthly Report
 
 ```bash
 ./depenses.sh month
@@ -124,7 +137,7 @@ TOTAL                3000.00
 Number of expenses: 3
 ```
 
-### 6. Delete an Expense
+### 7. Delete an Expense
 
 ```bash
 ./depenses.sh delete 2
@@ -136,7 +149,7 @@ Example output:
 Expense 2 deleted successfully.
 ```
 
-### 7. Handle Invalid Input
+### 8. Handle Invalid Input
 
 ```bash
 ./depenses.sh add -100 Food Lunch
